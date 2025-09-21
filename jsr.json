@@ -1,7 +1,8 @@
 {
   "name": "@jmacera/back-to-top-component",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
+  "description": "A customizable React component that displays a 'back to top' button when the user scrolls down a certain distance from the top of the page. Features smooth scrolling, customizable styling, and accessibility support.",
   "exports": "./mod.ts",
   "publish": {
     "include": ["mod.ts", "README.md", "LICENSE"]
@@ -12,5 +13,9 @@
   },
   "compilerOptions": {
     "jsx": "react-jsx"
+  },
+  "runtimes": {
+    "deno": "compatible",
+    "node": "compatible"
   }
 }
