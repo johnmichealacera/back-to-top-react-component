@@ -1,0 +1,16 @@
+{
+  "name": "@jmacera/back-to-top-component",
+  "version": "1.0.1",
+  "license": "MIT",
+  "exports": "./mod.ts",
+  "publish": {
+    "include": ["mod.ts", "README.md", "LICENSE"]
+  },
+  "dependencies": {
+    "npm:react": "^19.0.0",
+    "npm:lucide-react": "^0.515.0"
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx"
+  }
+}
